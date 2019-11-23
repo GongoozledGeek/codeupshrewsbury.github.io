@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.background {
+    width: 100%;
+    height: 100vh;
+    background: url('../media/images/adult-business-close-up-1181263.jpg') no-repeat 50% 50%;
+    background-size: cover;
+    filter: blur(11px) grayscale(50%);
+    -webkit-filter: blur(11px) grayscale(50%);
+}
+
+.logo {
+    position: absolute;
+    z-index: 1000;
+    padding: 25px;
+    width: 160px;
+    height: auto;
+}
+
+.welcome {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #3A64FF;
+    font-size: 4rem;
+    text-transform: lowercase;
+    letter-spacing: 2px;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.subheading {
+    font-size: 2rem;
+}
