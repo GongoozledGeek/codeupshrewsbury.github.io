@@ -3,6 +3,10 @@ html {
     padding: 0;
 }
 
+body {
+    transition: all .5s ease-in-out;
+}
+
 .header-icon {
     height: 35px;
     width: auto;
