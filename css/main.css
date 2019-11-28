@@ -41,3 +41,48 @@ body {
 .darkBG {
     background-color: darkslategray;
 }
+
+
+/* CONTACT PAGE */
+.ucs-floorplan {
+    height: 80vh;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1.5%;
+}
+
+/* MOBILE RESPONSIVE */
+@media only screen and (max-width: 600px) {
+    .header-logo {
+        height: 10vh;
+        width: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 1.5%;
+    }
+
+    /*HOME*/
+    .next-meeting{
+        text-align: center;
+        font-size: 1.5rem;
+        padding: 35px 15px;
+        font-family: 'Source Code Pro', monospace;
+    }
+
+    .darkBG {
+        background-color: white;
+    }
+
+    /* CONTACT PAGE */
+    .ucs-floorplan {
+        height: 65vh;
+        width: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 1.5%;
+    }
+}
