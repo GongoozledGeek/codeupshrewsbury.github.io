@@ -44,17 +44,10 @@ body {
 
 
 /* CONTACT PAGE */
-.ucs-floorplan {
-    height: 80vh;
-    width: auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 1.5%;
-}
+
 
 /* MOBILE RESPONSIVE */
-@media only screen and (max-width: 600px) {
+
     .header-logo {
         height: 10vh;
         width: auto;
@@ -74,15 +67,5 @@ body {
 
     .darkBG {
         background-color: white;
-    }
-
-    /* CONTACT PAGE */
-    .ucs-floorplan {
-        height: 65vh;
-        width: auto;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 1.5%;
     }
 }
