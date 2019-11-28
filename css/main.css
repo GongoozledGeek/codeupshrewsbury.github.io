@@ -66,6 +66,7 @@ body {
     }
 
     .darkBG {
-        background-color: white;
+        background-color: #292929;
+        color: #E1E1E1;
     }
 }
