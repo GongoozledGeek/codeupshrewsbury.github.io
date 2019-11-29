@@ -53,6 +53,7 @@ body {
 
 
 /* MOBILE RESPONSIVE */
+@media only screen and (max-width: 600px) {
     .header-logo {
         height: 10vh;
         width: auto;
