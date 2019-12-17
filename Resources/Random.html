@@ -21,6 +21,7 @@
     <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap" rel="stylesheet">
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="../css/snow.css">
 </head>
 
 <body>
@@ -55,10 +56,16 @@
             </div>
         </div>
     </nav>
-
+    <div class="snow"></div>
     <img class="header-logo" alt="CodeUp Shrewsbury logo" src="../media/images/CodeUpShrews.png" />
 
-    <div class="random" id="random-selector"></div>
+    <div class="NameGen" style="display: block; margin: 0 auto;">
+        <form action="">
+            <input id="nameList" type="text" />
+            <input type="submit" value="Submit">
+            <div class="random" id="random-selector"></div>
+        </form>
+    </div>
 
     <script src="https://code.jquery.com/jquery-3.4.1.js"
         integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
@@ -67,9 +74,14 @@
     </script>
     <script src="js/main.js" async defer></script>
     <script>
-        var myArray=['Brandon','Dave','Mike','Jay','Jen','Brock','Nick','Fabienne']
-        var rand = myArray[Math.floor(Math.random() * myArray.length)];
-        $("#random-selector").text(rand);
+        $("form").submit(function(){
+            var nameInput = $("#nameList").val();
+            var nameArray = nameInput.split(" ");
+            var rand = nameArray[Math.floor(Math.random() * nameArray.length)];
+            $("#random-selector").text(rand);
+            alert(rand);
+        });
+        
     </script>
 </body>
 
