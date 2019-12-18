@@ -1,0 +1,35 @@
+.resource-container {
+    margin: 0 15% 0 15%;
+}
+
+.resource-header{
+    font-size: 3em;
+    font-family: 'Source Code Pro', monospace;
+    margin-top: 25px;
+}
+
+.resource-container .resource-main a {
+    text-decoration: none;
+    color: #336699;
+    font-weight: 600;
+}
+
+.resource-icon {
+    height:5vh;
+}
+
+#html-css {
+    height:10vh;
+}
+
+#youTube {
+    height:10vh;
+}
+
+table {
+    width: 100%;
+}
+
+th {
+    background-color: lightgrey;
+}

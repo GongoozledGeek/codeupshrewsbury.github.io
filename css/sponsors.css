@@ -34,6 +34,11 @@
     color: black;
 }
 
+.sponsors-list .row .col-md-6 a {
+    text-decoration: none;
+    color: darkslateblue;
+}
+
 @media only screen and (max-width: 600px) {
     p {
         margin: 0% 5%;

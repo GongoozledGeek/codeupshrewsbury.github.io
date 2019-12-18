@@ -7,7 +7,7 @@ body {
     transition: all .5s ease-in-out;
     background: linear-gradient(to bottom, #405494, #E1C3C5);
     background-repeat: no-repeat;
-    height: 100vh;
+    min-height:100vh; 
 }
 
 .header-icon {
@@ -60,6 +60,11 @@ body {
     font-family: 'Source Code Pro', monospace;
 }
 
+.about {
+    margin: 0 15% 0 15%;
+    font-size: 1.5rem;
+}
+
 
 /* MOBILE RESPONSIVE */
 @media only screen and (max-width: 600px) {
@@ -87,5 +92,10 @@ body {
     .darkBG {
         background-color: #292929;
         color: #E1E1E1;
+    }
+
+    .about {
+        margin: 0 5% 0 5%;
+        font-size: 1rem;
     }
 }

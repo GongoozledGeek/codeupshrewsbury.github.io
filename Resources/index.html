@@ -2,14 +2,17 @@
 
 <head>
     <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-54502188-6"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-54502188-6"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
 
-  gtag('config', 'UA-54502188-6');
-</script>
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-54502188-6');
+    </script>
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -17,11 +20,12 @@
     <meta name="description" content="For anyone who wants to have a go or find out what coding is all about">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/resources.css">
     <link rel="shortcut icon" href="../media/images/favicon.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap" rel="stylesheet">
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        <link rel="stylesheet" href="../css/snow.css">
+    <link rel="stylesheet" href="../css/snow.css">
 </head>
 
 <body>
@@ -59,16 +63,169 @@
     <div class="snow"></div>
     <img class="header-logo" alt="CodeUp Shrewsbury logo" src="../media/images/CodeUpShrews.png" />
 
-    <div class="random">
-        <p>coming soon...</p>
+    <div class="resource-container">
+        <div class="resource-header">
+            Your IDE (Integrated Development Environment)
+        </div>
+        <div class="resource-main">
+            <i>(Where you write your code)</i>
+            <br />
+            <br />
+
+            <p>If you are new to coding and want to dip your toe in the fresh, clear waters of programming and coding,
+                you're going to need somewhere to write your code as well as run it (so you can see the fruits of your
+                labour).
+            </p>
+
+            <p>
+                We've put together a short list of our top 5:
+                <ol>
+                    <li>
+                        <a href="https://code.visualstudio.com/">
+                            <img class="resource-icon"
+                                src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/1200px-Visual_Studio_Code_1.35_icon.svg.png" />
+                            Visual Studio Code
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://notepad-plus-plus.org/">
+                            <img class="resource-icon"
+                                src="https://miro.medium.com/max/384/1*LckQghH0MS7EQKfS6ZqkXA.png" />
+                            Notepad++
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://bluefish.openoffice.nl/download.html">
+                            <img class="resource-icon"
+                                src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Bluefish-icon.svg/1024px-Bluefish-icon.svg.png" />
+                            Bluefish
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://atom.io/">
+                            <img class="resource-icon"
+                                src="https://upload.wikimedia.org/wikipedia/commons/e/e2/Atom_1.0_icon.png" />
+                            <span class="ide-name">Atom</span>
+                        </a>
+                    </li>
+                    <li> <a href="https://www.sublimetext.com/">
+                            <img class="resource-icon"
+                                src="https://d1jnx9ba8s6j9r.cloudfront.net/blog/wp-content/uploads/2019/06/sublime-text.png" />
+                            Sublime
+                        </a>
+                    </li>
+                </ol>
+                All of these are <strong>free</strong> to download and use and there are heaps of tutorials online, once
+                you've chosen!
+                We've always found <strong>VS Code</strong> to be the easiest to use and the most versatile, but it's a
+                totally subjective thing - try them all and see how you
+                get on.
+            </p>
+        </div>
+
+        <div class="resource-header">
+            <img src="https://codecollege.co.za/wp-content/uploads/2016/08/html5-css3.png" id="html-css" />The basics:
+            HTML and CSS
+        </div>
+        <div class="resource-main">
+            Once you have your IDE installed and running, you are ready to start writing some code! We'd recommend
+            starting with some HTML and CSS and have listed out some
+            great places to help get you started:
+            <ul>
+                <li><a href="https://www.w3schools.com/" target="_blank">W3 Schools</a> is a great place for simple,
+                    clear examples</li>
+                <li><a href="https://www.freecodecamp.org/" target="_blank">freeCodeCamp</a> is an interactive learning
+                    web platform with great learning resources</li>
+                <li><a href="https://www.codecademy.com/learn/learn-html" target="_blank">codecademy</a>: in just 7
+                    hours, learn the basics of HTML5 and start building & editing web pages.</li>
+            </ul>
+        </div>
+
+        <div class="resource-header">
+            <img src="https://cdn2.iconfinder.com/data/icons/social-icons-33/128/Youtube-512.png" id="youTube" /> YouTube
+            channels and playlists
+        </div>
+        <div class="resource-main">
+            <table>
+                <tr>
+                    <th>Channel name</th>
+                    <th>Primary language</th>
+                    <th>Description</th>
+                    <th>Link</th>
+                </tr>
+                <tr>
+                    <td>Tutor4u</td>
+                    <td>HTML</td>
+                    <td>HTML5 6 part tutorial (uses notepad++)</td>
+                    <td><a
+                            href="https://www.youtube.com/watch?v=9gTw2EDkaDQ&list=PLzmyR17f55-J7oZew4QxQ7cfw7d3__ZZs">https://www.youtube.com/watch?v=9gTw2EDkaDQ&list=PLzmyR17f55-J7oZew4QxQ7cfw7d3__ZZs</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Eli the Computer Guy</td>
+                    <td>HTML</td>
+                    <td>Web design</td>
+                    <td><a
+                            href="https://www.youtube.com/playlist?list=PL95EC7BCDFC1136FD">https://www.youtube.com/playlist?list=PL95EC7BCDFC1136FD</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Thenewboston</td>
+                    <td>HTML</td>
+                    <td>HTML5 Tutorials</td>
+                    <td><a
+                            href="https://www.youtube.com/playlist?list=PL081AC329706B2953">https://www.youtube.com/playlist?list=PL081AC329706B2953</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Tim Corey</td>
+                    <td>C#</td>
+                    <td>Various C# tutorials and projects</td>
+                    <td><a
+                            href="https://www.youtube.com/user/IAmTimCorey/">https://www.youtube.com/user/IAmTimCorey/</a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="resource-header">
+                <img src="https://git-scm.com/images/logos/downloads/Git-Logo-2Color.png" id="html-css" /> and source control
+            </div>
+            <div class="resource-main">
+                Once you have written code, you'll want to make sure it saved away safely.
+                <ul>
+                    <li><a href="https://github.com/">GitHub</a></li>
+                    <li><a href="https://git-scm.com/">Git Bash</a></li>
+                </ul>
+            </div>
+
+
     </div>
+
+
+    <br>
+    <p>
+        Getting started
+
+        Youtube Videos
+
+        Podcasts
+
+        Free CodeCamp
+
+        Free online schools
+
+        Books
+
+        Misc free stuff
+    </p>
 
     <script src="https://code.jquery.com/jquery-3.4.1.js"
         integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
     </script>
-    <script src="js/main.js" async defer></script>
+    <script src="../js/main.js" async defer></script>
 </body>
 
 </html>

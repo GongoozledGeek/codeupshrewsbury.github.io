@@ -5,4 +5,3 @@ function changeBG() {
 function returnBG() {
     $('body').removeClass('darkBG');
 }
-
