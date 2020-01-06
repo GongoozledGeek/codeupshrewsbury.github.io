@@ -5,7 +5,7 @@ html {
 
 body {
     transition: all .5s ease-in-out;
-    background: linear-gradient(to bottom, #405494, #E1C3C5);
+    background: white;
     background-repeat: no-repeat;
     min-height:100vh; 
 }
