@@ -65,6 +65,13 @@ body {
     font-size: 1.5rem;
 }
 
+.supportInfo {
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    text-align: center;
+}
+
 
 /* MOBILE RESPONSIVE */
 @media only screen and (max-width: 600px) {
@@ -97,5 +104,9 @@ body {
     .about {
         margin: 0 5% 0 5%;
         font-size: 1rem;
+    }
+
+    .supportInfo {
+        font-size: 0.5rem;;
     }
 }
